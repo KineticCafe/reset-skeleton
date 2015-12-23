@@ -14,6 +14,7 @@
 		07B2AE2E1C2B3190003E525C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B2AE2C1C2B3190003E525C /* LaunchScreen.storyboard */; };
 		07B2AE391C2B3190003E525C /* ResetObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2AE381C2B3190003E525C /* ResetObjectiveCTests.m */; };
 		07B2AE451C2B31BB003E525C /* Reset.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2AE441C2B31BB003E525C /* Reset.m */; };
+		07CB68A61C2B3DBE0006C6C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB68A51C2B3DBE0006C6C3 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		07B2AE3A1C2B3190003E525C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07B2AE431C2B31BB003E525C /* Reset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reset.h; sourceTree = "<group>"; };
 		07B2AE441C2B31BB003E525C /* Reset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reset.m; sourceTree = "<group>"; };
+		07CB68A41C2B3DBE0006C6C3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07CB68A51C2B3DBE0006C6C3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				07B2AE211C2B3190003E525C /* AppDelegate.h */,
 				07B2AE221C2B3190003E525C /* AppDelegate.m */,
+				07CB68A41C2B3DBE0006C6C3 /* ViewController.h */,
+				07CB68A51C2B3DBE0006C6C3 /* ViewController.m */,
 				07B2AE431C2B31BB003E525C /* Reset.h */,
 				07B2AE441C2B31BB003E525C /* Reset.m */,
 				07B2AE271C2B3190003E525C /* Main.storyboard */,
@@ -213,6 +218,7 @@
 			files = (
 				07B2AE451C2B31BB003E525C /* Reset.m in Sources */,
 				07B2AE231C2B3190003E525C /* AppDelegate.m in Sources */,
+				07CB68A61C2B3DBE0006C6C3 /* ViewController.m in Sources */,
 				07B2AE201C2B3190003E525C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +408,7 @@
 				07B2AE3F1C2B3190003E525C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07B2AE401C2B3190003E525C /* Build configuration list for PBXNativeTarget "ResetObjectiveCTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +417,7 @@
 				07B2AE421C2B3190003E525C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
